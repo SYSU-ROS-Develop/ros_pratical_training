@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/jerrychan/ros_pratical_training/catkin_ws/devel/setup.sh

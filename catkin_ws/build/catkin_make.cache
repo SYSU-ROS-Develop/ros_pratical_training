@@ -1,0 +1,2 @@
+beginner_turorials
+-DCATKIN_DEVEL_PREFIX=/home/jerrychan/ros_pratical_training/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jerrychan/ros_pratical_training/catkin_ws/install -G Unix Makefiles
