@@ -1,0 +1,8 @@
+prefix=/home/jerrychan/ros_pratical_training/catkin_ws/install
+
+Name: turtlebot3_bringup
+Description: Description of turtlebot3_bringup
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/jerrychan/ros_pratical_training/catkin_ws/install/lib 
+Requires: roscpp std_msgs sensor_msgs diagnostic_msgs turtlebot3_msgs

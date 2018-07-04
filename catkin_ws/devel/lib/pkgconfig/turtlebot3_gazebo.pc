@@ -1,0 +1,8 @@
+prefix=/home/jerrychan/ros_pratical_training/catkin_ws/devel
+
+Name: turtlebot3_gazebo
+Description: Description of turtlebot3_gazebo
+Version: 1.0.2
+Cflags: -I/home/jerrychan/ros_pratical_training/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include
+Libs: -L/home/jerrychan/ros_pratical_training/catkin_ws/devel/lib 
+Requires: roscpp std_msgs sensor_msgs geometry_msgs nav_msgs tf gazebo_ros
