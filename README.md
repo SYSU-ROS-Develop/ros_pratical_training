@@ -39,13 +39,14 @@
 	机器人：根据控制端发来的数据自动导航取书。
 系统构建过程
 1.	建立虚拟世界地图。
- ![img2] (https://github.com/SYSU-ROS-Develop/ros_pratical_training/blob/dev-jerry/doc/imgs/2.jpg)
+
+![img2](https://github.com/SYSU-ROS-Develop/ros_pratical_training/blob/dev-jerry/doc/imgs/2.jpg)
 在gazebo模拟器中建立模拟现实世界的地图，此处即图书馆。
 2.	扫描地图
-![img4] (https://github.com/SYSU-ROS-Develop/ros_pratical_training/blob/dev-jerry/doc/imgs/map.jpg)
+![img5](https://github.com/SYSU-ROS-Develop/ros_pratical_training/blob/dev-jerry/doc/imgs/map.jpg)
 使用机器人对地图进行扫描，记录地图数据。
 3.	加入导航控制
-![img3] (https://github.com/SYSU-ROS-Develop/ros_pratical_training/blob/dev-jerry/doc/imgs/3.jpg)
+![img3](https://github.com/SYSU-ROS-Develop/ros_pratical_training/blob/dev-jerry/doc/imgs/3.jpg)
 此处使用了Turtlebot3提供的navigation库，能够实时规划路线并导航。
 4.	加入云服务功能
 编写前端页面、后端服务器页面，以及查询任务队列的ROS节点，并建立该节点与navigation节点的通信，从而控制机器人导航。
@@ -62,7 +63,7 @@ ROS对于我们是一个崭新的领域，我们所有的小组成员都是零�
 我们发现Turtlebot3地图系统一个潜在的问题：如果建立的地图中有不同的部分完全相似的话，Turtlebot3会混淆这两个地方，导致地图扫描出现错误。我们卡在这个地方研究了相当长的一段时间才发现并解决这个问题。
 5.	电脑性能
 我们也曾尝试运行更为拟真的地图（见下），但由于电脑性能的原因，加载这个地图时gazebo会失去响应。而且也因为地图扫描的问题，我们选择了建立更加简单的地图。
-![img4] (https://github.com/SYSU-ROS-Develop/ros_pratical_training/blob/dev-jerry/doc/imgs/4.jpg)
+![img4](https://github.com/SYSU-ROS-Develop/ros_pratical_training/blob/dev-jerry/doc/imgs/4.jpg)
 
 ### 有待改进
 该项目离实用仍有较大差距，目前看到可以完善的点：
