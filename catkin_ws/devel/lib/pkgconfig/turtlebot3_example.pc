@@ -1,0 +1,8 @@
+prefix=/home/jerrychan/ros_pratical_training/catkin_ws/devel
+
+Name: turtlebot3_example
+Description: Description of turtlebot3_example
+Version: 1.0.0
+Cflags: -I/home/jerrychan/ros_pratical_training/catkin_ws/devel/include
+Libs: -L/home/jerrychan/ros_pratical_training/catkin_ws/devel/lib 
+Requires: rospy actionlib interactive_markers std_msgs sensor_msgs geometry_msgs nav_msgs visualization_msgs actionlib_msgs turtlebot3_msgs message_runtime
