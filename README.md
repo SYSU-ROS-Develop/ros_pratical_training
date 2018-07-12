@@ -44,7 +44,7 @@
 (4)破除取书的时间和空间限制。提前取书，即拿即走。
 
 ### 项目结构
-![img1](https://github.com/SYSU-ROS-Develop/ros_pratical_training/blob/dev-jerry/doc/imgs/1.png)
+![img1](https://github.com/SYSU-ROS-Develop/ros_pratical_training/blob/master/doc/imgs/1.png)
 **前端**：一个简单的表格提交页面，用于发起取书请求。
 
 **服务器端**：接受取书请求，检验请求合法性后加入到请求队列中。
@@ -58,19 +58,19 @@
 ### 系统构建过程
 #### 1.建立虚拟世界地图。
 
-![img2](https://github.com/SYSU-ROS-Develop/ros_pratical_training/blob/dev-jerry/doc/imgs/2.jpg)
+![img2](https://github.com/SYSU-ROS-Develop/ros_pratical_training/blob/master/doc/imgs/2.jpg)
 
 在gazebo模拟器中建立模拟现实世界的地图，此处即图书馆。
 
 #### 2.扫描地图
 
-![img5](https://github.com/SYSU-ROS-Develop/ros_pratical_training/blob/dev-jerry/doc/imgs/map.jpg)
+![img5](https://github.com/SYSU-ROS-Develop/ros_pratical_training/blob/master/doc/imgs/map.jpg)
 
 使用机器人对地图进行扫描，记录地图数据。
 
 #### 3.加入导航控制
 
-![img3](https://github.com/SYSU-ROS-Develop/ros_pratical_training/blob/dev-jerry/doc/imgs/3.jpg)
+![img3](https://github.com/SYSU-ROS-Develop/ros_pratical_training/blob/master/doc/imgs/3.jpg)
 
 此处使用了Turtlebot3提供的navigation库，能够实时规划路线并导航。
 
@@ -89,7 +89,7 @@ ROS对于我们是一个崭新的领域，我们所有的小组成员都是零�
 5. 电脑性能
 我们也曾尝试运行更为拟真的地图（见下），但由于电脑性能的原因，加载这个地图时gazebo会失去响应。而且也因为地图扫描的问题，我们选择了建立更加简单的地图。
 
-![img4](https://github.com/SYSU-ROS-Develop/ros_pratical_training/blob/dev-jerry/doc/imgs/4.jpg)
+![img4](https://github.com/SYSU-ROS-Develop/ros_pratical_training/blob/master/doc/imgs/4.jpg)
 
 ### 有待改进
 该项目离实用仍有较大差距，目前看到可以完善的点：
