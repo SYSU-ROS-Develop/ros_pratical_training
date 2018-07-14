@@ -8,6 +8,8 @@
 
 本项目基于 Ubuntu 16.04 LTS + ROS kinectic + Turtlebot3 + gazebo 7.11 模拟实现。
 
+本仓库为ROS代码，服务器端代码见：[ROS Server](https://github.com/SYSU-ROS-Develop/ROS_Server)
+
 ### 配置教程：
 1. 拉取仓库
 2. 进入`ros_pratical_training/catkin_ws/`,执行`$ catkin_make`
